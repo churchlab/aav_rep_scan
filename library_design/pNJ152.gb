@@ -1,0 +1,195 @@
+LOCUS       pNJ152                  3954 bp    DNA     circular UNA 30-MAR-2021
+DEFINITION  Gibson/Homology Cloning ligation product.
+ACCESSION   urn.local...89g-d6wd975
+VERSION     urn.local...89g-d6wd975
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..6
+                     /standard_name="XbaI"
+     misc_feature    complement(5..25)
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="oNJ334"
+     misc_feature    complement(14..>25)
+                     /standard_name="oPO_001"
+     gene            join(32..>1037,<1049..1897)
+                     /standard_name="AAV-2_rep"
+     misc_feature    32..51
+                     /note="Geneious type: primer_bind_reverse"
+                     /standard_name="oNJ341"
+     CDS             join(32..1617,1939..1963)
+                     /locus_tag="AAV2gp01"
+                     /codon_start=1
+                     /product="Rep 68 protein"
+                     /protein_id="YP_680422.1"
+                     /db_xref="GeneID:4192013"
+                     /standard_name="Rep 68 protein CDS"
+     CDS             32..1897
+                     /locus_tag="AAV2gp02"
+                     /codon_start=1
+                     /product="Rep 78 protein"
+                     /protein_id="YP_680423.1"
+                     /db_xref="GeneID:1489608"
+                     /standard_name="Rep 78 protein CDS"
+     misc_feature    join(<32..>1037,<1049..>2001)
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="rep gene from pEK7 (concatenated sequence
+                     2)"
+     primer_bind     32..51
+                     /standard_name="rep gene from pEK7 (1 F) - pNJ38 -
+                     backbone and CMV promoter"
+     primer_bind     32..46
+                     /standard_name="oNJ13"
+     primer_bind     80..99
+                     /standard_name="oEK436"
+     primer_bind     complement(132..151)
+                     /standard_name="oEK437"
+     primer_bind     complement(275..294)
+                     /standard_name="oEK416"
+     misc_feature    705..706
+                     /note="Geneious type: Editing History Insertion"
+                     /standard_name
+     primer_bind     751..769
+                     /standard_name="oEK278"
+     primer_bind     complement(977..994)
+                     /standard_name="oNJ268"
+     primer_bind     complement(1020..1037)
+                     /standard_name="oNJ281"
+     misc_feature    join(3947..>1037,<1049..2041)
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="pNJ76 PCR Product (concatenated sequence
+                     2)"
+     primer_bind     1049..1061
+                     /standard_name="oNJ280"
+     primer_bind     1536..1556
+                     /standard_name="oEK114"
+     primer_bind     complement(1600..1617)
+                     /standard_name="oNJ266"
+     intron          1618..1938
+                     /locus_tag="AAV2gp03"
+                     /standard_name="intron"
+     primer_bind     complement(1735..1755)
+                     /standard_name="oEK44"
+     primer_bind     1761..1780
+                     /standard_name="oEK191"
+     gene            1914..>1963
+                     /note="Geneious type: Gene"
+                     /standard_name="AAV-2_cap"
+     CDS             1914..>1963
+                     /locus_tag="AAV2gp05"
+                     /codon_start=1
+                     /product="major coat protein VP1"
+                     /protein_id="YP_680426.1"
+                     /db_xref="GeneID:4192017"
+                     /standard_name="major coat protein VP1 CDS"
+     primer_bind     complement(1943..1963)
+                     /standard_name="rep gene from pEK7 (1932 R) - pNJ38 -
+                     backbone and CMV promoter"
+     misc_feature    1964..>2001
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    1964..>2001
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="pNJ38 - backbone and CMV promoter
+                     (concatenated sequence 1)"
+     primer_bind     1964..1983
+                     /standard_name="oNJ257"
+     primer_bind     1976..1993
+                     /standard_name="Vec1_F_CMV"
+     primer_bind     complement(1983..2001)
+                     /standard_name="oNJ342"
+     misc_feature    2002..2041
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    2002..31
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="pEK33 PCR Product (concatenated sequence
+                     1)"
+     misc_feature    2002..2007
+                     /standard_name="SphI"
+     primer_bind     2002..2015
+                     /standard_name="oNJ333"
+     misc_feature    join(2008..>2743,<2744..>25)
+                     /standard_name="eccn-PL0002 backbone"
+     misc_feature    complement(2008..2743)
+                     /standard_name="p15a_ori"
+     misc_feature    2326..2331
+                     /standard_name="AgeI"
+     misc_feature    join(2742..>2743,<2744..2747)
+                     /standard_name="HindIII"
+     CDS             complement(2748..3557)
+                     /standard_name="Kanamycin CDS"
+     misc_feature    complement(3736..3910)
+                     /standard_name="terminator"
+     misc_feature    3947..31
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+ORIGIN      
+        1 tctagaaagt ataggaactt ctgaagccgc catgccgggg ttttacgaga ttgtgattaa
+       61 ggtccccagc gaccttgacg agcatctgcc cggcatttct gacagctttg tgaactgggt
+      121 ggccgagaag gaatgggagt tgccgccaga ttctgacatg gatctgaatc tgattgagca
+      181 ggcacccctg accgtggccg agaagctgca gcgcgacttt ctgacggaat ggcgccgtgt
+      241 gagtaaggcc ccggaggctc ttttctttgt gcaatttgag aagggagaga gctacttcca
+      301 catgcacgtg ctcgtggaaa ccaccggggt gaaatccatg gttttgggac gtttcctgag
+      361 tcagattcgc gaaaaactga ttcagagaat ttaccgcggg atcgagccga ctttgccaaa
+      421 ctggttcgcg gtcacaaaga ccagaaatgg cgccggaggc gggaacaagg tggtggatga
+      481 gtgctacatc cccaattact tgctccccaa aacccagcct gagctccagt gggcgtggac
+      541 taatatggaa cagtatttaa gcgcctgttt gaatctcacg gagcgtaaac ggttggtggc
+      601 gcagcatctg acgcacgtgt cgcagacgca ggagcagaac aaagagaatc agaatcccaa
+      661 ttctgatgcg ccggtgatca gatcaaaaac ttcagccagg tacggagagc tggtcgggtg
+      721 gctcgtggac aaggggatta cctcggagaa gcagtggatc caggaggacc aggcctcata
+      781 catctccttc aatgcggcct ccaactcgcg gtcccaaatc aaggctgcct tggacaatgc
+      841 gggaaagatt atgagcctga ctaaaaccgc ccccgactac ctggtgggcc agcagcccgt
+      901 ggaggacatt tccagcaatc ggatttataa aattttggaa ctaaacgggt acgatcccca
+      961 atatgcggct tccgtctttc tgggatgggc cacgaaaaag ttcggcaaga ggaacaccat
+     1021 ctggctgttt gggcctgcaa ctaccggcaa gaccaacatc gcggaggcca tagcccacac
+     1081 tgtgcccttc tacgggtgcg taaactggac caatgagaac tttcccttca acgactgtgt
+     1141 cgacaagatg gtgatctggt gggaggaggg gaagatgacc gccaaggtcg tggagtcggc
+     1201 caaagccatt ctcggaggaa gcaaggtgcg cgtggaccag aaatgcaagt cctcggccca
+     1261 gatagacccg actcccgtga tcgtcacctc caacaccaac atgtgcgccg tgattgacgg
+     1321 gaactcaacg accttcgaac accagcagcc gttgcaagac cggatgttca aatttgaact
+     1381 cacccgccgt ctggatcatg actttgggaa ggtcaccaag caggaagtca aagacttttt
+     1441 ccggtgggca aaggatcacg tggttgaggt ggagcatgaa ttctacgtca aaaagggtgg
+     1501 agccaagaaa agacccgccc ccagtgacgc agatataagt gagcccaaac gggtgcgcga
+     1561 gtcagttgcg cagccatcga cgtcagacgc ggaagcttcg atcaactacg cagacaggta
+     1621 ccaaaacaaa tgttctcgtc acgtgggcat gaatctgatg ctgtttccct gcagacaatg
+     1681 cgagagaatg aatcagaatt caaatatctg cttcactcac ggacagaaag actgtttaga
+     1741 gtgctttccc gtgtcagaat ctcaacccgt ttctgtcgtc aaaaaggcgt atcagaaact
+     1801 gtgctacatt catcatatca tgggaaaggt gccagacgct tgcactgcct gcgatctggt
+     1861 caatgtggat ttggatgact gcatctttga acaataaatg atttaaatca ggtatggctg
+     1921 ccgatggtta tcttccagat tggctcgagg acactctctc tgataataac cgggcaggcc
+     1981 atgtctgccc gtatttcgcg tgcatgcgcg tcagcagaat atgtgataca ggatatattc
+     2041 cgcttcctcg ctcactgact cgctacgctc ggtcgttcga ctgcggcgag cggaaatggc
+     2101 ttacgaacgg ggcggagatt tcctggaaga tgccaggaag atacttaaca gggaagtgag
+     2161 agggccgcgg caaagccgtt tttccatagg ctccgccccc ctgacaagca tcacgaaatc
+     2221 tgacgctcaa atcagtggtg gcgaaacccg acaggactat aaagatacca ggcgtttccc
+     2281 cctggcggct ccctcgtgcg ctctcctgtt cctgcctttc ggtttaccgg tgtcattccg
+     2341 ctgttatggc cgcgtttgtc tcattccacg cctgacactc agttccgggt aggcagttcg
+     2401 ctccaagctg gactgtatgc acgaaccccc cgttcagtcc gaccgctgcg ccttatccgg
+     2461 taactatcgt cttgagtcca acccggaaag acatgcaaaa gcaccactgg cagcagccac
+     2521 tggtaattga tttagaggag ttagtcttga agtcatgcgc cggttaaggc taaactgaaa
+     2581 ggacaagttt tggtgactgc gctcctccaa gccagttacc tcggttcaaa gagttggtag
+     2641 ctcagagaac cttcgaaaaa ccgccctgca aggcggtttt ttcgttttca gagcaagaga
+     2701 ttacgcgcag accaaaacga tctcaagaag atcatcttat taagctttta gaaaaactca
+     2761 tcgagcatca aatgaaactg caatttattc atatcaggat tatcaatacc atatttttga
+     2821 aaaagccgtt tctgtaatga aggagaaaac tcaccgaggc agttccatag gatggcaaga
+     2881 tcctggtatc ggtctgcgat tccgactcgt ccaacatcaa tacaacctat taatttcccc
+     2941 tcgtcaaaaa taaggttatc aagtgagaaa tcaccatgag tgacgactga atccggtgag
+     3001 aatggcaaaa gtttatgcat ttctttccag acttgttcaa caggccagcc attacgctcg
+     3061 tcatcaaaat cactcgcatc aaccaaaccg ttattcattc gtgattgcgc ctgagcgagg
+     3121 cgaaatacgc gatcgctgtt aaaaggacaa ttacaaacag gaatcgagtg caaccggcgc
+     3181 aggaacactg ccagcgcatc aacaatattt tcacctgaat caggatattc ttctaatacc
+     3241 tggaacgctg tttttccggg gatcgcagtg gtgagtaacc atgcatcatc aggagtacgg
+     3301 ataaaatgct tgatggtcgg aagtggcata aattccgtca gccagtttag tctgaccatc
+     3361 tcatctgtaa catcattggc aacgctacct ttgccatgtt tcagaaacaa ctctggcgca
+     3421 tcgggcttcc catacaagcg atagattgtc gcacctgatt gcccgacatt atcgcgagcc
+     3481 catttatacc catataaatc agcatccatg ttggaattta atcgcggcct cgacgtttcc
+     3541 cgttgaatat ggctcatatt cttccttttt caatattatt gaagcattta tcagggttat
+     3601 tgtctcatga gcggatacat atttgaatgt atttagaaaa ataaacaaat aggggtcagt
+     3661 gttacaacca attaaccaat tctgaacatt atcgcgagcc catttatacc tgaatatggc
+     3721 tcataacacc ccttgtttgc ctggcggcag tagcgcggtg gtcccacctg accccatgcc
+     3781 gaactcagaa gtgaaacgcc gtagcgccga tggtagtgtg gggactcccc atgcgagagt
+     3841 agggaactgc caggcatcaa ataaaacgaa aggctcagtc gaaagactgg gcctttcgcc
+     3901 cgggctaatt agggggtgtc gcccttattc gactctatag ggaagttcct attc
+//

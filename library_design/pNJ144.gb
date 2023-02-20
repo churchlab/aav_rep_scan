@@ -1,0 +1,413 @@
+LOCUS       pNJ144                  6105 bp    DNA     circular UNA 12-MAR-2021
+DEFINITION  Gibson/Homology Cloning ligation product.
+ACCESSION   urn.local...1i1-d471lcx
+VERSION     urn.local...1i1-d471lcx
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    2..41
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    join(2..>1057,<1069..>2276,<2288..>3031,<3043..4227)
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="pNJ1 PCR Product (concatenated sequence
+                     2)"
+     primer_bind     complement(19..41)
+                     /standard_name="oNJ334"
+     misc_feature    36..41
+                     /standard_name="XbaI"
+     misc_feature    join(<42..>1057,<1069..>2276,<2288..>3031,<3043..>4187)
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="wtAAV2 rep-cap no ITRs (from pAV1)
+                     (concatenated sequence 2)"
+     precursor_RNA   join(<42..>1057,<1069..>2276,<2288..>3031,<3043..4182)
+                     /locus_tag="AAV2gs01"
+                     /db_xref="GeneID:4192010"
+                     /standard_name="precursor RNA"
+     primer_bind     42..56
+                     /standard_name="oNJ331"
+     regulatory      46..55
+                     /standard_name="Kozak"
+     CDS             join(52..1637,1959..1983)
+                     /locus_tag="AAV2gp01"
+                     /codon_start=1
+                     /product="Rep 68 protein"
+                     /protein_id="YP_680422.1"
+                     /db_xref="GeneID:4192013"
+                     /standard_name="Rep 68 protein CDS"
+     CDS             52..1917
+                     /locus_tag="AAV2gp02"
+                     /codon_start=1
+                     /product="Rep 78 protein"
+                     /protein_id="YP_680423.1"
+                     /db_xref="GeneID:1489608"
+                     /standard_name="Rep 78 protein CDS"
+     variation       101
+                     /locus_tag="AAV2gp02"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="G"
+     misc_feature    258
+                     /note="Geneious type: motif"
+                     /standard_name="splice donor site"
+     misc_feature    451..510
+                     /standard_name="required for coordinate activation of p19
+                     and p40"
+     regulatory      461..470
+                     /standard_name="CArG-like (required for p19 activity)"
+     regulatory      476..484
+                     /standard_name="SP1 (required for p19 activity)"
+     regulatory      489..495
+                     /standard_name="GGT"
+     regulatory      549..558
+                     /standard_name="SP1 (required for p19 activity)"
+     regulatory      561..566
+                     /standard_name="p19 TATA 1"
+     regulatory      574..580
+                     /standard_name="TATA box"
+     regulatory      574..580
+                     /standard_name="p19 TATA 2"
+     regulatory      595..619
+                     /standard_name="homologous to TR RBE"
+     precursor_RNA   join(609..>1057,<1069..>2276,<2288..>3031,<3043..4182)
+                     /locus_tag="AAV2gs02"
+                     /db_xref="GeneID:4192011"
+                     /standard_name="precursor RNA"
+     regulatory      718..727
+                     /standard_name="Kozak"
+     misc_feature    719
+                     /note="Geneious type: motif"
+                     /standard_name="splice donor site"
+     CDS             join(724..1637,1959..1983)
+                     /locus_tag="AAV2gp03"
+                     /codon_start=1
+                     /product="Rep 40 protein"
+                     /protein_id="YP_680424.1"
+                     /db_xref="GeneID:4192014"
+                     /standard_name="Rep 40 protein CDS"
+     CDS             724..1917
+                     /locus_tag="AAV2gp04"
+                     /codon_start=1
+                     /product="Rep 52 protein"
+                     /protein_id="YP_680425.1"
+                     /db_xref="GeneID:1489607"
+                     /standard_name="Rep 52 protein CDS"
+     primer_bind     complement(1040..1057)
+                     /standard_name="oNJ281"
+     primer_bind     1069..1081
+                     /standard_name="oNJ280"
+     regulatory      1473..1483
+                     /standard_name="MLTF"
+     regulatory      1505..1510
+                     /standard_name="ATF-80"
+     regulatory      1516..1522
+                     /standard_name="SP1-70/GGT-70 (major determinant of p40
+                     transcription)"
+     misc_feature    1521..1583
+                     /standard_name="important for p40 transcription"
+     regulatory      1533..1541
+                     /standard_name="SP1-50 (major determinant of p40
+                     transcription)"
+     regulatory      1544..1551
+                     /standard_name="AP1-40 (putative)"
+     regulatory      1553..1558
+                     /standard_name="TATA box"
+     regulatory      1554..1558
+                     /standard_name="p40 TATA (major determinant of p40
+                     transcription)"
+     precursor_RNA   join(1584..>2276,<2288..>3031,<3043..4182)
+                     /locus_tag="AAV2gs03"
+                     /db_xref="GeneID:4192012"
+                     /standard_name="precursor RNA"
+     misc_feature    1635..1643
+                     /note="Geneious type: motif"
+                     /standard_name="splice donor"
+     intron          1638..1958
+                     /locus_tag="AAV2gp03"
+                     /standard_name="intron"
+     misc_feature    1892..1896
+                     /note="Geneious type: motif"
+                     /standard_name="intron branch point"
+     regulatory      1928..1937
+                     /standard_name="Kozak"
+     misc_feature    1932
+                     /note="Geneious type: motif"
+                     /standard_name="minor splice acceptor site"
+     CDS             1934..4141
+                     /locus_tag="AAV2gp05"
+                     /codon_start=1
+                     /product="major coat protein VP1"
+                     /protein_id="YP_680426.1"
+                     /db_xref="GeneID:4192017"
+                     /standard_name="major coat protein VP1 CDS"
+     misc_feature    complement(1951..1959)
+                     /note="Geneious type: motif"
+                     /standard_name="canonical splice acceptor?"
+     primer_bind     complement(1963..1983)
+                     /standard_name="oNJ295"
+     regulatory      2007..2016
+                     /standard_name="Kozak"
+     CDS             2013..2372
+                     /standard_name="membrane associated assembly activating
+                     protein MAAP"
+     misc_difference 2014
+                     /standard_name="T-->C for MAAP_del_start"
+     variation       2160
+                     /locus_tag="AAV2gp05"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="TA"
+     primer_bind     complement(2259..2276)
+                     /standard_name="oNJ336"
+     misc_difference 2286..2288
+                     /standard_name="Ser in wtAAV2 MAAP"
+     primer_bind     2288..2297
+                     /standard_name="oNJ335"
+     regulatory      2339..2348
+                     /standard_name="Kozak"
+     CDS             2345..4141
+                     /locus_tag="AAV2gp06"
+                     /codon_start=1
+                     /transl_except="(pos:2614..2616,aa:Met)"
+                     /product="major coat protein VP2"
+                     /protein_id="YP_680427.1"
+                     /db_xref="GeneID:4192015"
+                     /standard_name="major coat protein VP2 CDS"
+     regulatory      2454..2463
+                     /standard_name="Kozak"
+     CDS             2460..3074
+                     /locus_tag="AAV2gp06"
+                     /codon_start=1
+                     /product="assembly activating protein AAP"
+                     /protein_id="YP_004030758.1"
+                     /db_xref="GeneID:4192015"
+                     /standard_name="assembly activating protein AAP CDS"
+     regulatory      2534..2543
+                     /standard_name="Kozak"
+     CDS             2540..4141
+                     /locus_tag="AAV2gp07"
+                     /codon_start=1
+                     /product="major coat protein VP3"
+                     /protein_id="YP_680428.1"
+                     /db_xref="GeneID:4192016"
+                     /standard_name="major coat protein VP3 CDS"
+     variation       2608
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="C"
+     misc_difference 2650
+                     /standard_name="C-->G mutation in AAP60stop"
+     misc_feature    2915
+                     /note="Geneious type: motif"
+                     /standard_name="splice donor site"
+     primer_bind     complement(3014..3031)
+                     /standard_name="oNJ338"
+     misc_difference 3042..3044
+                     /standard_name="Ser in wtAAV2 AAP"
+     primer_bind     3043..3059
+                     /standard_name="oNJ337"
+     variation       3490..3496
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="G"
+     variation       3590
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="A"
+     variation       3629
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="-"
+     variation       3631..3633
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /standard_name="GAAC"
+     CDS             3660..4127
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="X has a significant effect on autonomous AAV DNA
+                     replication in differentiating normal human skin cells. X
+                     also has an effect on full length AAV2 genomes as well as
+                     recombinant (r) DNA replication and virion production."
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_009110690.1"
+                     /db_xref="GeneID:22318903"
+                     /standard_name="X gene CDS"
+     misc_feature    3869
+                     /note="Geneious type: motif"
+                     /standard_name="splice acceptor site"
+     variation       3963..3964
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /note="Geneious type: Polymorphism"
+                     /standard_name="ACG"
+     variation       4060..4061
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /note="Geneious type: Polymorphism"
+                     /standard_name="TCG"
+     variation       4067
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /note="Geneious type: Polymorphism"
+                     /standard_name="-"
+     variation       4072
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /note="Geneious type: Polymorphism"
+                     /standard_name="C"
+     variation       4078
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /note="Geneious type: Polymorphism"
+                     /standard_name="T"
+     polyA_signal    4155..4160
+     primer_bind     complement(4161..4187)
+                     /standard_name="oNJ332"
+     polyA_site      4182
+     misc_feature    4188..4227
+                     /note="Geneious type: ligation"
+                     /standard_name="Ligation"
+     misc_feature    4188..41
+                     /note="Geneious type: Concatenated sequence"
+                     /standard_name="pEK33 PCR Product (concatenated sequence
+                     1)"
+     misc_feature    4188..4193
+                     /standard_name="SphI"
+     primer_bind     4188..4201
+                     /standard_name="oNJ333"
+     misc_feature    join(4194..>4929,<4930..>41)
+                     /standard_name="eccn-PL0002 backbone"
+     misc_feature    complement(4194..4929)
+                     /standard_name="p15a_ori"
+     misc_feature    4512..4517
+                     /standard_name="AgeI"
+     misc_feature    join(4928..>4929,<4930..4933)
+                     /standard_name="HindIII"
+     CDS             complement(4934..5743)
+                     /standard_name="Kanamycin CDS"
+     misc_feature    complement(5922..6096)
+                     /standard_name="terminator"
+ORIGIN      
+        1 cgcccttatt cgactctata gggaagttcc tattctctag acgcagccgc catgccgggg
+       61 ttttacgaga ttgtgattaa ggtccccagc gaccttgacg agcatctgcc cggcatttct
+      121 gacagctttg tgaactgggt ggccgagaag gaatgggagt tgccgccaga ttctgacatg
+      181 gatctgaatc tgattgagca ggcacccctg accgtggccg agaagctgca gcgcgacttt
+      241 ctgacggaat ggcgccgtgt gagtaaggcc ccggaggccc ttttctttgt gcaatttgag
+      301 aagggagaga gctacttcca catgcacgtg ctcgtggaaa ccaccggggt gaaatccatg
+      361 gttttgggac gtttcctgag tcagattcgc gaaaaactga ttcagagaat ttaccgcggg
+      421 atcgagccga ctttgccaaa ctggttcgcg gtcacaaaga ccagaaatgg cgccggaggc
+      481 gggaacaagg tggtggatga gtgctacatc cccaattact tgctccccaa aacccagcct
+      541 gagctccagt gggcgtggac taatatggaa cagtatttaa gcgcctgttt gaatctcacg
+      601 gagcgtaaac ggttggtggc gcagcatctg acgcacgtgt cgcagacgca ggagcagaac
+      661 aaagagaatc agaatcccaa ttctgatgcg ccggtgatca gatcaaaaac ttcagccagg
+      721 tacatggagc tggtcgggtg gctcgtggac aaggggatta cctcggagaa gcagtggatc
+      781 caggaggacc aggcctcata catctccttc aatgcggcct ccaactcgcg gtcccaaatc
+      841 aaggctgcct tggacaatgc gggaaagatt atgagcctga ctaaaaccgc ccccgactac
+      901 ctggtgggcc agcagcccgt ggaggacatt tccagcaatc ggatttataa aattttggaa
+      961 ctaaacgggt acgatcccca atatgcggct tccgtctttc tgggatgggc cacgaaaaag
+     1021 ttcggcaaga ggaacaccat ctggctgttt gggcctgcaa ctaccggcaa gaccaacatc
+     1081 gcggaggcca tagcccacac tgtgcccttc tacgggtgcg taaactggac caatgagaac
+     1141 tttcccttca acgactgtgt cgacaagatg gtgatctggt gggaggaggg gaagatgacc
+     1201 gccaaggtcg tggagtcggc caaagccatt ctcggaggaa gcaaggtgcg cgtggaccag
+     1261 aaatgcaagt cctcggccca gatagacccg actcccgtga tcgtcacctc caacaccaac
+     1321 atgtgcgccg tgattgacgg gaactcaacg accttcgaac accagcagcc gttgcaagac
+     1381 cggatgttca aatttgaact cacccgccgt ctggatcatg actttgggaa ggtcaccaag
+     1441 caggaagtca aagacttttt ccggtgggca aaggatcacg tggttgaggt ggagcatgaa
+     1501 ttctacgtca aaaagggtgg agccaagaaa agacccgccc ccagtgacgc agatataagt
+     1561 gagcccaaac gggtgcgcga gtcagttgcg cagccatcga cgtcagacgc ggaagcttcg
+     1621 atcaactacg cagacaggta ccaaaacaaa tgttctcgtc acgtgggcat gaatctgatg
+     1681 ctgtttccct gcagacaatg cgagagaatg aatcagaatt caaatatctg cttcactcac
+     1741 ggacagaaag actgtttaga gtgctttccc gtgtcagaat ctcaacccgt ttctgtcgtc
+     1801 aaaaaggcgt atcagaaact gtgctacatt catcatatca tgggaaaggt gccagacgct
+     1861 tgcactgcct gcgatctggt caatgtggat ttggatgact gcatctttga acaataaatg
+     1921 atttaaatca ggtatggctg ccgatggtta tcttccagat tggctcgagg acactctctc
+     1981 tgaaggaata agacagtggt ggaagctcaa acctggccca ccaccaccaa agcccgcaga
+     2041 gcggcataag gacgacagca ggggtcttgt gcttcctggg tacaagtacc tcggaccctt
+     2101 caacggactc gacaagggag agccggtcaa cgaggcagac gccgcggccc tcgagcacga
+     2161 caaagcctac gaccggcagc tcgacagcgg agacaacccg tacctcaagt acaaccacgc
+     2221 cgacgcggag tttcaggagc gccttaaaga agatacgtct tttgggggca acctcggacg
+     2281 agcagtgttc caggcgaaaa agagggttct tgaacctctg ggcctggttg aggaacctgt
+     2341 taagacggct ccgggaaaaa agaggccggt agagcactct cctgtggagc cagactcctc
+     2401 ctcgggaacc ggaaaggcgg gccagcagcc tgcaagaaaa agattgaatt ttggtcagac
+     2461 tggagacgca gactcagtac ctgaccccca gcctctcgga cagccaccag cagccccctc
+     2521 tggtctggga actaatacga tggctacagg cagtggcgca ccaatggcag acaataacga
+     2581 gggcgccgac ggagtgggta attcctcggg aaattggcat tgcgattcca catggatggg
+     2641 cgacagagtc atcaccacca gcacccgaac ctgggccctg cccacctaca acaaccacct
+     2701 ctacaaacaa atttccagcc aatcaggagc ctcgaacgac aatcactact ttggctacag
+     2761 caccccttgg gggtattttg acttcaacag attccactgc cacttttcac cacgtgactg
+     2821 gcaaagactc atcaacaaca actggggatt ccgacccaag agactcaact tcaagctctt
+     2881 taacattcaa gtcaaagagg tcacgcagaa tgacggtacg acgacgattg ccaataacct
+     2941 taccagcacg gttcaggtgt ttactgactc ggagtaccag ctcccgtacg tcctcggctc
+     3001 ggcgcatcaa ggatgcctcc cgccgttccc agcagacgtc tacatggtgc cacagtatgg
+     3061 atacctcacc ctgaacaacg ggagtcaggc agtaggacgc tcttcatttt actgcctgga
+     3121 gtactttcct tctcagatgc tgcgtaccgg aaacaacttt accttcagct acacttttga
+     3181 ggacgttcct ttccacagca gctacgctca cagccagagt ctggaccgtc tcatgaatcc
+     3241 tctcatcgac cagtacctgt attacttgag cagaacaaac actccaagtg gaaccaccac
+     3301 gcagtcaagg cttcagtttt ctcaggccgg agcgagtgac attcgggacc agtctaggaa
+     3361 ctggcttcct ggaccctgtt accgccagca gcgagtatca aagacatctg cggataacaa
+     3421 caacagtgaa tactcgtgga ctggagctac caagtaccac ctcaatggca gagactctct
+     3481 ggtgaatccg ggcccggcca tggcaagcca caaggacgat gaagaaaagt tttttcctca
+     3541 gagcggggtt ctcatctttg ggaagcaagg ctcagagaaa acaaatgtgg acattgaaaa
+     3601 ggtcatgatt acagacgaag aggaaatcag gacaaccaat cccgtggcta cggagcagta
+     3661 tggttctgta tctaccaacc tccagagagg caacagacaa gcagctaccg cagatgtcaa
+     3721 cacacaaggc gttcttccag gcatggtctg gcaggacaga gatgtgtacc ttcaggggcc
+     3781 catctgggca aagattccac acacggacgg acattttcac ccctctcccc tcatgggtgg
+     3841 attcggactt aaacaccctc ctccacagat tctcatcaag aacaccccgg tacctgcgaa
+     3901 tccttcgacc accttcagtg cggcaaagtt tgcttccttc atcacacagt actccacggg
+     3961 acaggtcagc gtggagatcg agtgggagct gcagaaggaa aacagcaaac gctggaatcc
+     4021 cgaaattcag tacacttcca actacaacaa gtctgttaat gtggacttta ctgtggacac
+     4081 taatggcgtg tattcagagc ctcgccccat tggcaccaga tacctgactc gtaatctgta
+     4141 attgcttgtt aatcaataaa ccgtttaatt cgtttcagtt gaactttgca tgcgcgtcag
+     4201 cagaatatgt gatacaggat atattccgct tcctcgctca ctgactcgct acgctcggtc
+     4261 gttcgactgc ggcgagcgga aatggcttac gaacggggcg gagatttcct ggaagatgcc
+     4321 aggaagatac ttaacaggga agtgagaggg ccgcggcaaa gccgtttttc cataggctcc
+     4381 gcccccctga caagcatcac gaaatctgac gctcaaatca gtggtggcga aacccgacag
+     4441 gactataaag ataccaggcg tttccccctg gcggctccct cgtgcgctct cctgttcctg
+     4501 cctttcggtt taccggtgtc attccgctgt tatggccgcg tttgtctcat tccacgcctg
+     4561 acactcagtt ccgggtaggc agttcgctcc aagctggact gtatgcacga accccccgtt
+     4621 cagtccgacc gctgcgcctt atccggtaac tatcgtcttg agtccaaccc ggaaagacat
+     4681 gcaaaagcac cactggcagc agccactggt aattgattta gaggagttag tcttgaagtc
+     4741 atgcgccggt taaggctaaa ctgaaaggac aagttttggt gactgcgctc ctccaagcca
+     4801 gttacctcgg ttcaaagagt tggtagctca gagaaccttc gaaaaaccgc cctgcaaggc
+     4861 ggttttttcg ttttcagagc aagagattac gcgcagacca aaacgatctc aagaagatca
+     4921 tcttattaag cttttagaaa aactcatcga gcatcaaatg aaactgcaat ttattcatat
+     4981 caggattatc aataccatat ttttgaaaaa gccgtttctg taatgaagga gaaaactcac
+     5041 cgaggcagtt ccataggatg gcaagatcct ggtatcggtc tgcgattccg actcgtccaa
+     5101 catcaataca acctattaat ttcccctcgt caaaaataag gttatcaagt gagaaatcac
+     5161 catgagtgac gactgaatcc ggtgagaatg gcaaaagttt atgcatttct ttccagactt
+     5221 gttcaacagg ccagccatta cgctcgtcat caaaatcact cgcatcaacc aaaccgttat
+     5281 tcattcgtga ttgcgcctga gcgaggcgaa atacgcgatc gctgttaaaa ggacaattac
+     5341 aaacaggaat cgagtgcaac cggcgcagga acactgccag cgcatcaaca atattttcac
+     5401 ctgaatcagg atattcttct aatacctgga acgctgtttt tccggggatc gcagtggtga
+     5461 gtaaccatgc atcatcagga gtacggataa aatgcttgat ggtcggaagt ggcataaatt
+     5521 ccgtcagcca gtttagtctg accatctcat ctgtaacatc attggcaacg ctacctttgc
+     5581 catgtttcag aaacaactct ggcgcatcgg gcttcccata caagcgatag attgtcgcac
+     5641 ctgattgccc gacattatcg cgagcccatt tatacccata taaatcagca tccatgttgg
+     5701 aatttaatcg cggcctcgac gtttcccgtt gaatatggct catattcttc ctttttcaat
+     5761 attattgaag catttatcag ggttattgtc tcatgagcgg atacatattt gaatgtattt
+     5821 agaaaaataa acaaataggg gtcagtgtta caaccaatta accaattctg aacattatcg
+     5881 cgagcccatt tatacctgaa tatggctcat aacacccctt gtttgcctgg cggcagtagc
+     5941 gcggtggtcc cacctgaccc catgccgaac tcagaagtga aacgccgtag cgccgatggt
+     6001 agtgtgggga ctccccatgc gagagtaggg aactgccagg catcaaataa aacgaaaggc
+     6061 tcagtcgaaa gactgggcct ttcgcccggg ctaattaggg ggtgt
+//
